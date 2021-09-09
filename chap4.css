@@ -1,0 +1,30 @@
+#o {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bubble {
+  border: 3px solid #ffffff;
+  display: block;
+  position: absolute;
+  X: 4144px;
+  Y: 922px;
+  width: 87px;
+  height: 75px;
+}
+body {
+  background-color: #ff86f5;
+}
+
+/*
+.bubble {
+  border: 3px solid #ffffff;
+  display: block;
+  position: absolute;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+*/ 
