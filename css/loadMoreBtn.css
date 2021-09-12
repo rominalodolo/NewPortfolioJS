@@ -1,0 +1,36 @@
+
+a, a:link, a:focus, a:active, a:visited {
+    outline: 0;
+}
+a, a:link, a:focus, a:active, a:visited {
+    outline: 0;
+}
+
+.blogBox .course_content{    
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.blogBox .course_content .chapters a {
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+#loadMore {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+#loadMore a {
+    background: #630463;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+}
+#loadMore a:hover {
+    background-color: #9c2265;
+}
