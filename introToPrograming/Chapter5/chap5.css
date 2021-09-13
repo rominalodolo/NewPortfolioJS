@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
 
 
-
+body {
+    background-color: #FFBEEA;
+    font-family: 'Roboto', sans-serif;
+}
+#myName {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 1px #A0628C;
+    text-align: center;
+}
+#aboutMe {
+    text-align: center;
+    color: #961A5B;
+}
+hr.style {
+    border: 1px solid #961A5B;
+}
+h2 {
+    color: #61344C;
+    text-shadow: 1px 1px #A0628C;
+}
 a.btn{
     display:inline-block;
     padding:0.3em 1.2em;
@@ -16,8 +37,22 @@ a.btn{
     text-align:center;
     transition: all 0.2s;
 }
+p {
+    color: #590531;
+    font-weight: lighter;
+}
+ul {
+    color: #843E63;
+}
     a.btn:hover{
     border-color: rgba(255,255,255,1);
+}
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 1px #A0628C;
+
 }
     @media all and (max-width:30em){
      a.btn{
