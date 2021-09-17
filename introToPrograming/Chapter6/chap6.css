@@ -1,78 +1,122 @@
-body {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+
+/* Desktop - 1 */
+* {
+    width: 100%;
+    position: relative;
+    background: #FFFFFF;
 }
-p {
-    font-size: 2.5em;
+/* robot */
+.robot {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 450.98px;
+    height: 560.39px;
 }
-.eye {
-    background-color: blue;
-    width: 30%;
-    height: 30%;
-    border-radius: 50%;
+.robot * {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.arm {
-    background-color: #cacaca;
+/* face */
+#face {
     position: absolute;
-    top: 35%;
-    width: 3%;
-    height: 40%;
+    width: 246px;
+    height: 115px;
+}
+.head {
+    background: #322831;
+}
+/* eyes */
+.eye {
+    border: 13px solid #D2FFFC;
 }
 
-#head {
-    width:30%;
-    height:30%;
-    border-radius: 15%;
-    background-color: #dadada;
+/* leftEye */
+#leftEye {
     position: absolute;
-    left: 33%;
-    top: 5%;
-}
-#righteye {
-    position: absolute;
-    left: 10%;
-    top: 18%;
-}
-#lefteye {
-    position: absolute;
-    left: 60%;
-    top: 20%;
-}
-#nose {
-    position: absolute;
-    left: 45%;
-    top: 50%;
-    width: 10%;
-    height: 10%;
-    background-color: black;
-}
-#mouth {
-    position: absolute;
-    width: 65%;
-    height: 15%;
-    left: 20%;
-    top: 70%;
-    background-color: red;
+    width: 38.5px;
+    height: 19.31px;
+    X: -91.5px;
+    Y: -68.81px;
     border-radius: 50%;
 }
+/* rightEye */
+#rightEye {
+    position: absolute;
+    width: 38.5px;
+    height: 19.31px;
+    transform: X: 12px Y: -68px;
+} 
+/* body */
 #body {
     position: absolute;
-    left: 25%;
-    top: 35%;
-    width: 45%;
-    height: 55%;
-    background-color: #dadada;
-    text-align:center;
-    padding-top: 30px;
-}
+    width: 297px;
+    height: 505px;
 
-#rightarm {
-    position:absolute;
-    left:22%;
-
+    background: #FFCCFA;
+    border-radius: 142px;
 }
-#leftarm {
+/* Hello Human */
+p {
     position: absolute;
-    left: 70%;
-    width: 27%;
-    height: 5%;
+    width: 191px;
+    height: 47px;
+    X: -117px;
+    Y: 107px;
+
+    font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    line-height: 100%;
+    text-align: center;
+
+    color: #000000;
+    background: #FFCCFA;
+}
+/* arm */
+.arm {
+    background: #FFCCFA;
+    position: absolute;
+    width: 54.07px;
+    height: 123.37px;
+}
+/* leftarm */
+#leftarm {
+    X: -140.02px;
+    Y: 91.31px;
+    transform: matrix(-0.86, -0.51, -0.51, 0.86, 0, 0);
+}
+/* rightarm */
+#rightarm {  
+    X: 93px;
+    Y: 78px;
+    transform: rotate(-30.34deg);
+}
+/* rightfoot */
+#rightfoot {
+    position: absolute;
+    width: 125px;
+    height: 78.39px;
+
+    background: #FFCCFA;
+    border: 1px solid #FFCCFA;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+/* leftfoot */
+#leftfoot {
+    position: absolute;
+    width: 125px;
+    height: 78.39px;
+
+    background: #FFCCFA;
+    border: 1px solid #FFCCFA;
+}
+footer {
+    text-align: center;
+    color: #FFCCFA;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 1px #A0628C;
+
 }
