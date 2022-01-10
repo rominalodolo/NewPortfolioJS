@@ -14,21 +14,29 @@
   -moz-border-radius: 20px;
 }
 body {
-  background-color: #ff86f5;
+  background-color: #FF89BA;
   background-image: url('heartsBackground.png');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
   font-family: 'Poppins', sans-serif;
-  color: #ffffff;
-  text-shadow: 2px 1px #A0628C;
+  color: #3F132D;
+  text-shadow: 2px 1px #FCFEE6;
   text-align: center;
 }
 
 #btn {
-  width: 100%;
-  color: #ffffff;
-  background-color: #FF88C6;
-  border-radius: 20%;
+  color: #FCFEE6;
+  background-color: #FF89BA;
+  border-radius: 15%;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
+  min-height: 60px;
+  min-width: 0;
+  line-height: normal;
+  margin: 0;
+  outline: none;
 }
