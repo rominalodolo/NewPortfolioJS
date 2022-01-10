@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Screen Shot of the index page
-![tictactoeGAME](https://user-images.githubusercontent.com/83961643/144841351-5356f516-b6bf-4dd8-a7a5-0998ac356c43.jpeg)
+![indexpgscreenshot](https://user-images.githubusercontent.com/83961643/148777119-405b0179-3b1f-4efe-a590-9e66f39e2d9b.jpeg)
 
 
 Last edit January 2022
