@@ -5,7 +5,7 @@ var myBtn = document.getElementById('btn');
 myBtn.addEventListener('click', changeText)
 
 function changeText(){
-    myText.innerHTML = "Changed! This is my new sentence";
+    myText.innerHTML = "I love you my lovelies!";
 }
 
 YUI().use('node', 'anim', 'anim-node-plugin', function(Y) {
